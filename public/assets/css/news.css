@@ -1,0 +1,40 @@
+.team-item .team-img img,
+.blog-item .blog-img img  {
+    transition: .5s;
+}
+
+.team-item:hover .team-img img,
+.blog-item:hover .blog-img img {
+    transform: scale(1.15);
+}
+ /* Estilização do background */
+ .bg-header {
+    background: linear-gradient(to bottom, #eaf4ee, #ffffff);
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Estilização dos botões */
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espaçamento entre os botões */
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 4px; /* Reduz a altura e largura do botão */
+    font-size: 12px; /* Diminui o tamanho da fonte */
+    border-radius: 15px; /* Mantém as bordas arredondadas */
+    border: 1px solid #008000; /* Define a cor da borda */
+    color: #008000; /* Cor do texto */
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: #008000;
+    color: white;
+}

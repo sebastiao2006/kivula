@@ -11,8 +11,12 @@
   
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#" class="active">Inicio</a></li>
-          <li><a href="#about">Sobre</a></li>
+          <li class="{{ Route::currentRouteName() == 'site.home.index' ? 'active' : '' }}">
+            <a href="{{ route('site.home.index') }}">Início</a>
+        </li>   
+        <li class="{{ Route::currentRouteName() == 'site.about.index' ? 'active' : '' }}">
+          <a href="{{ route('site.about.index') }}">Sobre</a>
+        </li>
           <li class="dropdown"><a href="#"><span>Serviços</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
@@ -22,7 +26,6 @@
                   <li><a href="#">Deep Dropdown 2</a></li>
                   <li><a href="#">Deep Dropdown 3</a></li>
                   <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
                 </ul>
               </li>
               <li><a href="#">Dropdown 2</a></li>
@@ -31,17 +34,30 @@
             </ul>
           </li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#">News</a></li>
-          <li class="dropdown"><a href="#"><span>Produtos</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul class="drop-produtos">
-              <li><a href="#"><img src="assets/img/logo/logo4.png" alt="SGP PORTFOLIO"></a></li>
-              <li><a href=#><img src="assets/img/logo/logo4.png" alt="SGP PORTFOLIO"></a></li>
-              <li><a href="#"><img src="assets/img/logo/logo4.png" alt="SGP PORTFOLIO"></a></li>
-              <li><a href="#"><img src="assets/img/logo/logo4.png" alt="SGP PORTFOLIO"></a></li>
-            </ul>
-            
+          <li class="{{ Route::currentRouteName() == 'site.news.index' ? 'active' : '' }}">
+            <a href="{{ route('site.news.index') }}">Blog</a>
+        </li>
+        <li class="dropdown">
+          <a href="#"><span>Produtos</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul class="drop-produtos">
+              <li><a href="{{ route('site.product.show', ['id' => 1]) }}">
+                  <img src="{{ asset('assets/img/logo/logo4.png') }}" alt="Produto 1">
+              </a></li>
+              <li><a href="{{ route('site.product.show', ['id' => 2]) }}">
+                  <img src="{{ asset('assets/img/logo/logo4.png') }}" alt="Produto 2">
+              </a></li>
+              <li><a href="{{ route('site.product.show', ['id' => 3]) }}">
+                  <img src="{{ asset('assets/img/logo/logo4.png') }}" alt="Produto 3">
+              </a></li>
+              <li><a href="{{ route('site.product.show', ['id' => 4]) }}">
+                  <img src="{{ asset('assets/img/logo/logo4.png') }}" alt="Produto 4">
+              </a></li>
+          </ul>
+      </li>
+      
+          <li class="{{ Route::currentRouteName() == 'site.contact.index' ? 'active' : '' }}">
+            <a href="{{ route('site.contact.index') }}">Contacto</a>
           </li>
-          <li><a href="#contact">Contacto</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>

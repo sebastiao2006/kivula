@@ -1,9 +1,151 @@
-.hero-header {
-    margin-top: -75px;
-    background: url('/assets/img/tumbs/capa6.jpg') center center no-repeat;
-    background-size: cover;
+
+/*--------------------------------------------------------------
+# Hero Banner
+--------------------------------------------------------------*/
+.hero-banner {
+  width: 100%;
+  background: url('/assets/img/tumbs/capa6.jpg') center center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 240px 0 0 0;
+
 }
 
+.hero-banner .container {
+  position: relative;
+  z-index: 3;
+}
+
+.hero-banner h2 {
+  color: #0097b2;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-banner h2 .highlight {
+  color: rgb(255, 255, 255);
+}
+
+.hero-banner p {
+  color: color-mix(in srgb, white, transparent 40%);
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.hero-banner .btn-start {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  font-family: var(--heading-font);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 40px;
+  border-radius: 50px;
+  transition: 0.3s;
+  margin-bottom: 20px;
+  border: 2px solid #036577;
+  background-color: #0097b2;
+}
+
+.hero-banner .btn-start:hover {
+  border-color: color-mix(in srgb, var(--default-color), transparent 60%);
+}
+
+.hero-banner .btn-video {
+  font-size: 16px;
+  transition: 0.5s;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.hero-banner .btn-video i {
+  color: white;
+  font-size: 32px;
+  transition: 0.3s;
+  line-height: 0;
+  margin-right: 8px;
+}
+
+.hero-banner .btn-video:hover i {
+  color: var(--default-color);
+}
+
+@media (max-width: 640px) {
+  .hero-banner h2 {
+    font-size: 36px;
+  }
+
+  .hero-banner .btn-start,
+  .hero-banner .btn-video {
+    font-size: 14px;
+  }
+}
+
+.hero-banner .feature-boxes {
+  padding-bottom: 60px;
+  z-index: 4;
+}
+
+@media (min-width: 1200px) {
+  .hero-banner .feature-boxes:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: calc(50% + 20px);
+    background-color: var(--default-color);
+    border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  }
+}
+
+.hero-banner .feature-box {
+  padding: 60px 30px;
+  position: relative;
+  overflow: hidden;
+  background: var(--background-color);
+  box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.hero-banner .feature-box .feature-title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.hero-banner .feature-box .feature-title a {
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  transition: 0.3s;
+}
+
+.hero-banner .feature-box .feature-icon {
+  margin-bottom: 20px;
+  padding-top: 10px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  font-size: 48px;
+  line-height: 1;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+}
+
+.hero-banner .feature-box:hover {
+  background-color: color-mix(in srgb, var(--background-color), white 10%);
+}
+
+.hero-banner .feature-box:hover .feature-title a,
+.hero-banner .feature-box:hover .feature-icon {
+  color: var(--contrast-color);
+}
 
 .service-item {
     text-align: center;

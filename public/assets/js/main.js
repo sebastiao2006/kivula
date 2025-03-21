@@ -1,6 +1,6 @@
 /**
-* Template Name: eNno
-* Template URL: https://bootstrapmade.com/enno-free-simple-bootstrap-template/
+* Template Name: Impact
+* Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
 * Updated: Aug 07 2024 with Bootstrap v5.3.3
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
@@ -61,13 +61,13 @@
   /**
    * Preloader
    */
- /*  const preloader = document.querySelector('#preloader');
+  const preloader = document.querySelector('#preloader');
   if (preloader) {
     window.addEventListener('load', () => {
       preloader.remove();
     });
   }
- */
+
   /**
    * Scroll top button
    */
@@ -110,6 +110,25 @@
   });
 
   /**
+   * Init swiper sliders
+   */
+  function initSwiper() {
+    document.querySelectorAll(".init-swiper").forEach(function(swiperElement) {
+      let config = JSON.parse(
+        swiperElement.querySelector(".swiper-config").innerHTML.trim()
+      );
+
+      if (swiperElement.classList.contains("swiper-tab")) {
+        initSwiperWithCustomPagination(swiperElement, config);
+      } else {
+        new Swiper(swiperElement, config);
+      }
+    });
+  }
+
+  window.addEventListener("load", initSwiper);
+
+  /**
    * Initiate Pure Counter
    */
   new PureCounter();
@@ -148,23 +167,13 @@
   });
 
   /**
-   * Init swiper sliders
+   * Frequently Asked Questions Toggle
    */
-  function initSwiper() {
-    document.querySelectorAll(".init-swiper").forEach(function(swiperElement) {
-      let config = JSON.parse(
-        swiperElement.querySelector(".swiper-config").innerHTML.trim()
-      );
-
-      if (swiperElement.classList.contains("swiper-tab")) {
-        initSwiperWithCustomPagination(swiperElement, config);
-      } else {
-        new Swiper(swiperElement, config);
-      }
+  document.querySelectorAll('.faq-item h3, .faq-item .faq-toggle').forEach((faqItem) => {
+    faqItem.addEventListener('click', () => {
+      faqItem.parentNode.classList.toggle('faq-active');
     });
-  }
-
-  window.addEventListener("load", initSwiper);
+  });
 
   /**
    * Correct scrolling position upon page load for URLs containing hash links.
@@ -183,14 +192,6 @@
       }
     }
   });
- /**
-   * Frequently Asked Questions Toggle
-   */
- document.querySelectorAll('.faq-item h3, .faq-item .faq-toggle').forEach((faqItem) => {
-  faqItem.addEventListener('click', () => {
-    faqItem.parentNode.classList.toggle('faq-active');
-  });
-});
 
   /**
    * Navmenu Scrollspy

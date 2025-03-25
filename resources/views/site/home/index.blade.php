@@ -10,15 +10,15 @@
     <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
       <div class="row gy-5 justify-content-between">
         <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h2><span>Welcome to </span><span class="accent">Impact</span></h2>
+          <h2><span>Welcome to </span><span class="accent">Kivula</span></h2>
           <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
           <div class="d-flex">
-            <a href="#about" class="btn-get-started">Get Started</a>
-            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            <a href="#about" class="btn-get-started">Agendar Reunião</a>
+            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Assistir Video</span></a>
           </div>
         </div>
         <div class="col-lg-5 order-1 order-lg-2">
-          <img src="{{ asset('assets/img/hero-img.svg') }}" class="img-fluid" alt="">
+          <img src="{{ asset('assets/img/hero-im.svg') }}" class="img-fluid" alt="">
         </div>
       </div>
     </div>
@@ -30,21 +30,21 @@
           <div class="col-xl-3 col-md-6">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-easel"></i></div>
-              <h4 class="title"><a href="" class="stretched-link">Lorem Ipsum</a></h4>
+              <h4 class="title"><a href="" class="stretched-link">Portfolio</a></h4>
             </div>
           </div><!--End Icon Box -->
 
           <div class="col-xl-3 col-md-6">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-gem"></i></div>
-              <h4 class="title"><a href="" class="stretched-link">Sed ut perspiciatis</a></h4>
+              <h4 class="title"><a href="" class="stretched-link">Lading page</a></h4>
             </div>
           </div><!--End Icon Box -->
 
           <div class="col-xl-3 col-md-6">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-geo-alt"></i></div>
-              <h4 class="title"><a href="" class="stretched-link">Magni Dolores</a></h4>
+              <h4 class="title"><a href="" class="stretched-link">websites-IA</a></h4>
             </div>
           </div><!--End Icon Box -->
 
@@ -66,37 +66,22 @@
 
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
-      <h2>About Us<br></h2>
-      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      <h2>Sobre Nós<br></h2>
     </div><!-- End Section Title -->
 
     <div class="container">
 
       <div class="row gy-4">
         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-          <h3>Voluptatem dignissimos provident laboris nisi ut aliquip ex ea commodo</h3>
-          <img src="assets/img/about.jpg" class="img-fluid rounded-4 mb-4" alt="">
-          <p>Ut fugiat ut sunt quia veniam. Voluptate perferendis perspiciatis quod nisi et. Placeat debitis quia recusandae odit et consequatur voluptatem. Dignissimos pariatur consectetur fugiat voluptas ea.</p>
-          <p>Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nihil vitae quo officia vel. Blanditiis eligendi possimus et in cum. Quidem eos ut sint rem veniam qui. Ut ut repellendus nobis tempore doloribus debitis explicabo similique sit. Accusantium sed ut omnis beatae neque deleniti repellendus.</p>
+          <h3>Kivula Consultoria de TI</h3>
+{{--           <img src="assets/img/about.jpg" class="img-fluid rounded-4 mb-4" alt=""> --}}
+          <p style="font-size: 18px">A Kivula Consultoria de TI é uma empresa especializada em desenvolvimento web com Inteligência Artificial (IA), fornecendo soluções inovadoras e personalizadas  para impulsionar negócios na era digital.</p>
+          <p style="font-size: 18px">Combinamos tecnologia de ponta com IA para criar plataformas web inteligentes, automatizadas e eficientes, proporcionando experiências digitais mais dinâmicas e intuitivas. Nossos serviços incluem desenvolvimento de websites e aplicativos web, integração de IA para automação de processos, chatbots inteligentes, análise preditiva e muito mais.</p>
         </div>
         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
           <div class="content ps-0 ps-lg-5">
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle-fill"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-              <li><i class="bi bi-check-circle-fill"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-              <li><i class="bi bi-check-circle-fill"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-            </ul>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-            </p>
-
             <div class="position-relative mt-4">
-              <img src="{{ asset('assets/img/about-2.jpg') }}" class="img-fluid rounded-4" alt="">
+              <img src="{{ asset('assets/img/banner-bg1.jpeg') }}" class="img-fluid rounded-4" alt="">
               <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
             </div>
           </div>
@@ -147,20 +132,105 @@
           }
         </script>
         <div class="swiper-wrapper align-items-center">
-          <div class="swiper-slide"><img src="{{ asset('assets/img/clients/client-1.png') }}" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="{{ asset('assets/img/clients/client-1.webp') }}" class="img-fluid" alt=""></div>
           <div class="swiper-slide"><img src="{{ asset('assets/img/clients/client-2.png') }}" class="img-fluid" alt=""></div>
           <div class="swiper-slide"><img src="{{ asset('assets/img/clients/client-3.png') }}" class="img-fluid" alt=""></div>
           <div class="swiper-slide"><img src="{{ asset('assets/img/clients/client-4.png') }}" class="img-fluid" alt=""></div>
           <div class="swiper-slide"><img src="{{ asset('assets/img/clients/client-5.png') }}" class="img-fluid" alt=""></div>
           <div class="swiper-slide"><img src="{{ asset('assets/img/clients/client-6.png') }}" class="img-fluid" alt=""></div>
           <div class="swiper-slide"><img src="{{ asset('assets/img/clients/client-7.png') }}" class="img-fluid" alt=""></div>
-          <div class="swiper-slide"><img src="{{ asset('assets/img/clients/client-8.png') }}" class="img-fluid" alt=""></div>          
+          
         </div>
       </div>
 
     </div>
 
   </section><!-- /Clients Section -->
+
+  <!-- Services Section -->
+  <section id="services" class="services section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Nossos Serviços</h2>
+    </div><!-- End Section Title -->
+
+    <div class="container">
+
+      <div class="row gy-4">
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-item  position-relative">
+            <div class="icon">
+              <i class="bi bi-activity"></i>
+            </div>
+            <h3>Portfolio</h3>
+            <p>A Kivula oferece criação de portfólios personalizados, destacando habilidades e projetos com design moderno e intuitivo. Ideal para profissionais e empresas, garante uma presença digital forte e envolvente.</p>
+            <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-item position-relative">
+            <div class="icon">
+              <i class="bi bi-broadcast"></i>
+            </div>
+            <h3>Landing Page</h3>
+            <p>A Kivula oferece serviços de Landing Page, criando páginas atrativas e eficientes para captar leads e impulsionar negócios. Com design responsivo, carregamento rápido e foco na conversão, nossas soluções garantem uma experiência envolvente para o público-alvo.</p>
+            <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-item position-relative">
+            <div class="icon">
+              <i class="bi bi-easel"></i>
+            </div>
+            <h3>websites-IA</h3>
+            <p>Desenvolvimento de websites com IA, criando sites inteligentes, personalizados e otimizados para alto desempenho. Utilizamos tecnologia avançada para automação, design dinâmico e experiência interativa, garantindo uma presença digital moderna e eficiente.</p>
+            <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-item position-relative">
+            <div class="icon">
+              <i class="bi bi-bounding-box-circles"></i>
+            </div>
+            <h3>Marketing</h3>
+            <p>As soluções de marketing abrangem estratégias personalizadas para aumentar a visibilidade da marca, engajar o público e impulsionar conversões. Com abordagem focada em dados, utilizamos campanhas otimizadas, SEO e gestão de redes sociais para maximizar resultados. </p>
+            <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+          <div class="service-item position-relative">
+            <div class="icon">
+              <i class="bi bi-calendar4-week"></i>
+            </div>
+            <h3>branding</h3>
+            <p>O branding fortalece a identidade da marca, criando uma presença visual e estratégica marcante. Com design diferenciado, identidade visual coerente e comunicação alinhada, o objetivo é tornar a marca reconhecível e memorável no mercado. </p>
+            <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+          <div class="service-item position-relative">
+            <div class="icon">
+              <i class="bi bi-chat-square-text"></i>
+            </div>
+            <h3>Dolori Architecto</h3>
+            <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+            <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div><!-- End Service Item -->
+
+      </div>
+
+    </div>
+
+  </section><!-- /Services Section -->
+
 
   <!-- Stats Section -->
   <section id="stats" class="stats section">
@@ -227,244 +297,12 @@
 
   </section><!-- /Stats Section -->
 
-  <!-- Call To Action Section -->
-  <section id="call-to-action" class="call-to-action section dark-background">
-
-    <div class="container">
-      <img src="assets/img/cta-bg.jpg" alt="">
-      <div class="content row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
-        <div class="col-xl-10">
-          <div class="text-center">
-            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox play-btn"></a>
-            <h3>Call To Action</h3>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a class="cta-btn" href="#">Call To Action</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </section><!-- /Call To Action Section -->
-
-  <!-- Services Section -->
-  <section id="services" class="services section">
-
-    <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
-      <h2>Our Services</h2>
-      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-    </div><!-- End Section Title -->
-
-    <div class="container">
-
-      <div class="row gy-4">
-
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-          <div class="service-item  position-relative">
-            <div class="icon">
-              <i class="bi bi-activity"></i>
-            </div>
-            <h3>Nesciunt Mete</h3>
-            <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-            <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-          </div>
-        </div><!-- End Service Item -->
-
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-          <div class="service-item position-relative">
-            <div class="icon">
-              <i class="bi bi-broadcast"></i>
-            </div>
-            <h3>Eosle Commodi</h3>
-            <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-            <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-          </div>
-        </div><!-- End Service Item -->
-
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-          <div class="service-item position-relative">
-            <div class="icon">
-              <i class="bi bi-easel"></i>
-            </div>
-            <h3>Ledo Markt</h3>
-            <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-            <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-          </div>
-        </div><!-- End Service Item -->
-
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-          <div class="service-item position-relative">
-            <div class="icon">
-              <i class="bi bi-bounding-box-circles"></i>
-            </div>
-            <h3>Asperiores Commodit</h3>
-            <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-            <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-          </div>
-        </div><!-- End Service Item -->
-
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-          <div class="service-item position-relative">
-            <div class="icon">
-              <i class="bi bi-calendar4-week"></i>
-            </div>
-            <h3>Velit Doloremque</h3>
-            <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-            <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-          </div>
-        </div><!-- End Service Item -->
-
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-          <div class="service-item position-relative">
-            <div class="icon">
-              <i class="bi bi-chat-square-text"></i>
-            </div>
-            <h3>Dolori Architecto</h3>
-            <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-            <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-          </div>
-        </div><!-- End Service Item -->
-
-      </div>
-
-    </div>
-
-  </section><!-- /Services Section -->
-
-  <!-- Testimonials Section -->
-  <section id="testimonials" class="testimonials section">
-
-    <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
-      <h2>Testimonials</h2>
-      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-    </div><!-- End Section Title -->
-
-    <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-      <div class="swiper init-swiper">
-        <script type="application/json" class="swiper-config">
-          {
-            "loop": true,
-            "speed": 600,
-            "autoplay": {
-              "delay": 5000
-            },
-            "slidesPerView": "auto",
-            "pagination": {
-              "el": ".swiper-pagination",
-              "type": "bullets",
-              "clickable": true
-            },
-            "breakpoints": {
-              "320": {
-                "slidesPerView": 1,
-                "spaceBetween": 40
-              },
-              "1200": {
-                "slidesPerView": 3,
-                "spaceBetween": 10
-              }
-            }
-          }
-        </script>
-        <div class="swiper-wrapper">
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <h3>Saul Goodman</h3>
-              <h4>Ceo &amp; Founder</h4>
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-              </div>
-              <p>
-                <i class="bi bi-quote quote-icon-left"></i>
-                <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                <i class="bi bi-quote quote-icon-right"></i>
-              </p>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-              <h3>Sara Wilsson</h3>
-              <h4>Designer</h4>
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-              </div>
-              <p>
-                <i class="bi bi-quote quote-icon-left"></i>
-                <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                <i class="bi bi-quote quote-icon-right"></i>
-              </p>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-              <h3>Jena Karlis</h3>
-              <h4>Store Owner</h4>
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-              </div>
-              <p>
-                <i class="bi bi-quote quote-icon-left"></i>
-                <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                <i class="bi bi-quote quote-icon-right"></i>
-              </p>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-              <h3>Matt Brandon</h3>
-              <h4>Freelancer</h4>
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-              </div>
-              <p>
-                <i class="bi bi-quote quote-icon-left"></i>
-                <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                <i class="bi bi-quote quote-icon-right"></i>
-              </p>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-              <h3>John Larson</h3>
-              <h4>Entrepreneur</h4>
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-              </div>
-              <p>
-                <i class="bi bi-quote quote-icon-left"></i>
-                <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                <i class="bi bi-quote quote-icon-right"></i>
-              </p>
-            </div>
-          </div><!-- End testimonial item -->
-
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-
-    </div>
-
-  </section><!-- /Testimonials Section -->
-
   <!-- Portfolio Section -->
   <section id="portfolio" class="portfolio section">
 
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
       <h2>Portfolio</h2>
-      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
     </div><!-- End Section Title -->
 
     <div class="container">
@@ -473,17 +311,17 @@
 
         <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
           <li data-filter="*" class="filter-active">All</li>
-          <li data-filter=".filter-app">App</li>
-          <li data-filter=".filter-product">Product</li>
-          <li data-filter=".filter-branding">Branding</li>
-          <li data-filter=".filter-books">Books</li>
+          <li data-filter=".filter-app">Portfolio</li>
+          <li data-filter=".filter-product">Website</li>
+          <li data-filter=".filter-branding">SG</li>
+          <li data-filter=".filter-books">Landing Page</li>
         </ul><!-- End Portfolio Filters -->
 
         <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
           <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
             <div class="portfolio-content h-100">
-              <a href="assets/img/portfolio/app-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt=""></a>
+              <a href="assets/img/portfolio/app-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/app1.png" class="img-fluid" alt=""></a>
               <div class="portfolio-info">
                 <h4><a href="portfolio-details.html" title="More Details">App 1</a></h4>
                 <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -493,7 +331,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
             <div class="portfolio-content h-100">
-              <a href="assets/img/portfolio/product-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt=""></a>
+              <a href="assets/img/portfolio/product-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/app3.png" class="img-fluid" alt=""></a>
               <div class="portfolio-info">
                 <h4><a href="portfolio-details.html" title="More Details">Product 1</a></h4>
                 <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -503,7 +341,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
             <div class="portfolio-content h-100">
-              <a href="assets/img/portfolio/branding-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt=""></a>
+              <a href="assets/img/portfolio/branding-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/app4.png" class="img-fluid" alt=""></a>
               <div class="portfolio-info">
                 <h4><a href="portfolio-details.html" title="More Details">Branding 1</a></h4>
                 <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -513,7 +351,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
             <div class="portfolio-content h-100">
-              <a href="assets/img/portfolio/books-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt=""></a>
+              <a href="assets/img/portfolio/books-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/app5.png" class="img-fluid" alt=""></a>
               <div class="portfolio-info">
                 <h4><a href="portfolio-details.html" title="More Details">Books 1</a></h4>
                 <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -523,7 +361,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
             <div class="portfolio-content h-100">
-              <a href="assets/img/portfolio/app-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt=""></a>
+              <a href="assets/img/portfolio/app-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/app2.png" class="img-fluid" alt=""></a>
               <div class="portfolio-info">
                 <h4><a href="portfolio-details.html" title="More Details">App 2</a></h4>
                 <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -533,69 +371,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
             <div class="portfolio-content h-100">
-              <a href="assets/img/portfolio/product-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt=""></a>
+              <a href="assets/img/portfolio/product-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/app6.png" class="img-fluid" alt=""></a>
               <div class="portfolio-info">
                 <h4><a href="portfolio-details.html" title="More Details">Product 2</a></h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-              </div>
-            </div>
-          </div><!-- End Portfolio Item -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-            <div class="portfolio-content h-100">
-              <a href="assets/img/portfolio/branding-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt=""></a>
-              <div class="portfolio-info">
-                <h4><a href="portfolio-details.html" title="More Details">Branding 2</a></h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-              </div>
-            </div>
-          </div><!-- End Portfolio Item -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-            <div class="portfolio-content h-100">
-              <a href="assets/img/portfolio/books-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt=""></a>
-              <div class="portfolio-info">
-                <h4><a href="portfolio-details.html" title="More Details">Books 2</a></h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-              </div>
-            </div>
-          </div><!-- End Portfolio Item -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-            <div class="portfolio-content h-100">
-              <a href="assets/img/portfolio/app-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt=""></a>
-              <div class="portfolio-info">
-                <h4><a href="portfolio-details.html" title="More Details">App 3</a></h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-              </div>
-            </div>
-          </div><!-- End Portfolio Item -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-            <div class="portfolio-content h-100">
-              <a href="assets/img/portfolio/product-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt=""></a>
-              <div class="portfolio-info">
-                <h4><a href="portfolio-details.html" title="More Details">Product 3</a></h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-              </div>
-            </div>
-          </div><!-- End Portfolio Item -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-            <div class="portfolio-content h-100">
-              <a href="assets/img/portfolio/branding-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt=""></a>
-              <div class="portfolio-info">
-                <h4><a href="portfolio-details.html" title="More Details">Branding 3</a></h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-              </div>
-            </div>
-          </div><!-- End Portfolio Item -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-            <div class="portfolio-content h-100">
-              <a href="assets/img/portfolio/books-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt=""></a>
-              <div class="portfolio-info">
-                <h4><a href="portfolio-details.html" title="More Details">Books 3</a></h4>
                 <p>Lorem ipsum, dolor sit amet consectetur</p>
               </div>
             </div>
@@ -614,8 +392,7 @@
 
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
-      <h2>Our Team</h2>
-      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      <h2>Parceiros</h2>
     </div><!-- End Section Title -->
 
     <div class="container">
@@ -624,43 +401,25 @@
 
         <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
           <div class="member">
-            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-            <h4>Walter White</h4>
-            <span>Web Development</span>
-            <div class="social">
-              <a href=""><i class="bi bi-twitter-x"></i></a>
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-linkedin"></i></a>
-            </div>
+            <img src="assets/img/team/team-1.png" class="img-fluid" alt="">
+            <h4>Organização</h4>
+            <span>Parceiro de Comunicação</span>
           </div>
         </div><!-- End Team Member -->
 
         <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
           <div class="member">
-            <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-            <h4>Sarah Jhinson</h4>
-            <span>Marketing</span>
-            <div class="social">
-              <a href=""><i class="bi bi-twitter-x"></i></a>
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-linkedin"></i></a>
-            </div>
+            <img src="assets/img/team/team-2.png" class="img-fluid" alt="">
+            <h4>Marketing</h4>
+            <span>Parceiro Institucional</span>
           </div>
         </div><!-- End Team Member -->
 
         <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
           <div class="member">
-            <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+            <img src="assets/img/team/team-3.png" class="img-fluid" alt="">
             <h4>William Anderson</h4>
             <span>Content</span>
-            <div class="social">
-              <a href=""><i class="bi bi-twitter-x"></i></a>
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-linkedin"></i></a>
-            </div>
           </div>
         </div><!-- End Team Member -->
 
@@ -669,12 +428,6 @@
             <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
             <h4>Amanda Jepson</h4>
             <span>Accountant</span>
-            <div class="social">
-              <a href=""><i class="bi bi-twitter-x"></i></a>
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-linkedin"></i></a>
-            </div>
           </div>
         </div><!-- End Team Member -->
 

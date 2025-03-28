@@ -3,219 +3,66 @@
 @section('content')
 <main class="main">
 
- <!-- Hero Banner -->
-<section id="hero-banner" class="hero-banner section highlight-background">
 
-    <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+
+  <!-- Hero Section -->
+  <section id="hero-product" class="hero-product hero-product3 section accent-background">
+
+    <div class="container position-relative" data-aos="fade-up" data-aos-delay="100" id="particles-js">
+
+
       <div class="row gy-5 justify-content-between">
         <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h2><span>Welcome to </span><span class="highlight">Impact</span></h2>
+          <h2><span>Welcome to </span><span class="accent">Kivula</span></h2>
           <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
           <div class="d-flex">
-            <a href="#about" class="btn-start">Get Started</a>
-            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            <a href="#about" class="btn-get-started">Agendar Reunião</a>
+            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Assistir Video</span></a>
           </div>
         </div>
         <div class="col-lg-5 order-1 order-lg-2">
-          <img src="assets/img/hero-img.svg" class="img-fluid" alt="">
+          <img src="{{ asset('assets/img/hero-im.svg') }}" class="img-fluid" alt="">
         </div>
       </div>
-    </div>
-
-  {{--   <div class="feature-boxes position-relative" data-aos="fade-up" data-aos-delay="200">
-      <div class="container position-relative">
-        <div class="row gy-4 mt-5">
-
-          <div class="col-xl-3 col-md-6">
-            <div class="feature-box">
-              <div class="feature-icon"><i class="bi bi-easel"></i></div>
-              <h4 class="feature-title"><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-            </div>
-          </div><!--End Feature Box -->
-
-          <div class="col-xl-3 col-md-6">
-            <div class="feature-box">
-              <div class="feature-icon"><i class="bi bi-gem"></i></div>
-              <h4 class="feature-title"><a href="" class="stretched-link">Sed ut perspiciatis</a></h4>
-            </div>
-          </div><!--End Feature Box -->
-
-          <div class="col-xl-3 col-md-6">
-            <div class="feature-box">
-              <div class="feature-icon"><i class="bi bi-geo-alt"></i></div>
-              <h4 class="feature-title"><a href="" class="stretched-link">Magni Dolores</a></h4>
-            </div>
-          </div><!--End Feature Box -->
-
-          <div class="col-xl-3 col-md-6">
-            <div class="feature-box">
-              <div class="feature-icon"><i class="bi bi-command"></i></div>
-              <h4 class="feature-title"><a href="" class="stretched-link">Nemo Enim</a></h4>
-            </div>
-          </div><!--End Feature Box -->
-
-        </div>
-      </div>
-    </div>
- --}}
-</section><!-- /Hero Banner -->
-
-
-
-    <section>
-        <div class="produto-container">
-            <div class="produto-descricao">
-                <h2>SIGE</h2>
-                <p>SIGE é uma ferramenta tecnológica essencial para instituições de ensino. Ele centraliza e organiza diversas informações, automatizando processos e otimizando a gestão acadêmica.</p>
-                <div class="avaliacao">
-                    
-                    <span>+3 Empresas avaliaram o SIGE</span>
-                </div>
-                <button class="botao-saiba-mais">Saiba mais</button>
-               
-            </div>
+  
+  
     
-            <div class="produto-imagem">
-                <img src="{{ asset('assets/img/tumbs/capa2.png') }}" alt="SIGE">
-            </div>
-        </div>
-    </section>
-    
-<!-- Services Section -->
-<section id="services" class="services section light-background">
+  
+  
 
-    <!-- Section Title -->
-    <div class="container section-title" >
-      <span>Nossos Serviços</span>
-      <h2>Funcionalidades</h2>
-    </div><!-- End Section Title -->
+    </div>
+ 
+
+
+  </section><!-- /Hero Section -->
+
+
+   <!-- About Section -->
+   <section id="about" class="about section">
+
 
     <div class="container">
+
       <div class="row gy-4">
-  
-        <div class="col-lg-4 col-md-6"  >
-            <div class="service-item position-relative">
-                <div class="icon">
-                    <i class="fas fa-bullhorn"></i> <!-- Ícone de Marketing -->
-                </div>
-                <a href="#"class="stretched-link">
-                    <h3>Marketing Digital & Gestão de Redes Sociais</h3>
-                </a>
-                <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-            </div>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <h3>Kivula Consultoria de TI</h3>
+{{--           <img src="assets/img/about.jpg" class="img-fluid rounded-4 mb-4" alt=""> --}}
+          <p style="font-size: 18px">A Kivula Consultoria de TI é uma empresa especializada em desenvolvimento web com Inteligência Artificial (IA), fornecendo soluções inovadoras e personalizadas  para impulsionar negócios na era digital.</p>
+          <p style="font-size: 18px">Combinamos tecnologia de ponta com IA para criar plataformas web inteligentes, automatizadas e eficientes, proporcionando experiências digitais mais dinâmicas e intuitivas. Nossos serviços incluem desenvolvimento de websites e aplicativos web, integração de IA para automação de processos, chatbots inteligentes, análise preditiva e muito mais.</p>
         </div>
-    
-        <div class="col-lg-4 col-md-6"  data-aos-delay="200">
-            <div class="service-item position-relative">
-                <div class="icon">
-                    <i class="fas fa-cogs"></i> <!-- Ícone de Soluções Tecnológicas -->
-                </div>
-                <a href="service-details.html" class="stretched-link">
-                    <h3>Soluções Tecnológicas & Automação</h3>
-                </a>
-                <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
+          <div class="content ps-0 ps-lg-5">
+            <div class="position-relative mt-4">
+              <img src="{{ asset('assets/img/capa14.png') }}" class="img-fluid rounded-4" alt="">
+              <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
             </div>
+          </div>
         </div>
-    
-        <div class="col-lg-4 col-md-6"  data-aos-delay="300">
-            <div class="service-item position-relative">
-                <div class="icon">
-                    <i class="fas fa-user-tie"></i> <!-- Ícone de Consultoria TI -->
-                </div>
-                <a href="service-details.html" class="stretched-link">
-                    <h3>Consultoria em Tecnologia da Informação (TI)</h3>
-                </a>
-                <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-            </div>
-        </div>
+      </div>
 
-        <div class="col-lg-4 col-md-6"  data-aos-delay="300">
-            <div class="service-item position-relative">
-                <div class="icon">
-                    <i class="fas fa-user-tie"></i> <!-- Ícone de Consultoria TI -->
-                </div>
-                <a href="service-details.html" class="stretched-link">
-                    <h3>Consultoria em Tecnologia da Informação (TI)</h3>
-                </a>
-                <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6"  data-aos-delay="300">
-            <div class="service-item position-relative">
-                <div class="icon">
-                    <i class="fas fa-user-tie"></i> <!-- Ícone de Consultoria TI -->
-                </div>
-                <a href="service-details.html" class="stretched-link">
-                    <h3>Consultoria em Tecnologia da Informação (TI)</h3>
-                </a>
-                <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6"  data-aos-delay="300">
-            <div class="service-item position-relative">
-                <div class="icon">
-                    <i class="fas fa-user-tie"></i> <!-- Ícone de Consultoria TI -->
-                </div>
-                <a href="service-details.html" class="stretched-link">
-                    <h3>Consultoria em Tecnologia da Informação (TI)</h3>
-                </a>
-                <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-            </div>
-        </div>
-        
-    
     </div>
-  
-        
-  
-      </div>
-  </div>
 
-
-    {{-- <!-- Featured Services Section -->
-    <section id="featured-services" class="featured-services section">
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 d-flex"  >
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-activity icon"></i></div>
-              <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 d-flex"  data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
-              <h4><a href="" class="stretched-link">Sed ut perspici</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 d-flex"  data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
-              <h4><a href="" class="stretched-link">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Featured Services Section --> --}}
-
-
-    </section><!-- /Services Section -->
-
-     
-
+  </section><!-- /About Section -->
 
       <!-- Faq Section -->
       <section class="faq-9 faq section light-background" id="faq">
@@ -237,7 +84,7 @@
               <div class="faq-container">
   
                 <div class="faq-item faq-active">
-                  <h3>Non consectetur a erat nam at lectus urna duis?</h3>
+                  <h3>Como um SGE pode melhorar a gestão acadêmica da escola?</h3>
                   <div class="faq-content">
                     <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
                   </div>
@@ -245,7 +92,7 @@
                 </div><!-- End Faq item-->
   
                 <div class="faq-item">
-                  <h3>Feugiat scelerisque varius morbi enim nunc faucibus?</h3>
+                  <h3>É possível acompanhar o desempenho dos alunos em tempo real no SGE?</h3>
                   <div class="faq-content">
                     <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
                   </div>
@@ -253,7 +100,7 @@
                 </div><!-- End Faq item-->
   
                 <div class="faq-item">
-                  <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
+                  <h3>O sistema permite a comunicação entre pais, alunos e professores?</h3>
                   <div class="faq-content">
                     <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
                   </div>
@@ -261,7 +108,7 @@
                 </div><!-- End Faq item-->
   
                 <div class="faq-item">
-                  <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
+                  <h3>O SGE pode ser integrado a outras plataformas educacionais?</h3>
                   <div class="faq-content">
                     <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
                   </div>
@@ -269,7 +116,7 @@
                 </div><!-- End Faq item-->
   
                 <div class="faq-item">
-                  <h3>Tempus quam pellentesque nec nam aliquam sem et tortor?</h3>
+                  <h3>Quais são as principais funcionalidades de um SGE para a administração escolar?</h3>
                   <div class="faq-content">
                     <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
                   </div>
@@ -277,7 +124,7 @@
                 </div><!-- End Faq item-->
   
                 <div class="faq-item">
-                  <h3>Perspiciatis quod quo quos nulla quo illum ullam?</h3>
+                  <h3>Como um SGE garante a segurança dos dados acadêmicos e administrativos?</h3>
                   <div class="faq-content">
                     <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi. Distinctio ipsam dolore et.</p>
                   </div>

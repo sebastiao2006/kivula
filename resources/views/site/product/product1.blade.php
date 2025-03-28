@@ -3,219 +3,66 @@
 @section('content')
 <main class="main">
 
- <!-- Hero Banner -->
-<section id="hero-banner" class="hero-banner section highlight-background">
 
-    <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+
+  <!-- Hero Section -->
+  <section id="hero-product" class="hero-product section accent-background">
+
+    <div class="container position-relative" data-aos="fade-up" data-aos-delay="100" id="particles-js">
+
+
       <div class="row gy-5 justify-content-between">
         <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h2><span>Welcome to </span><span class="highlight">Impact</span></h2>
+          <h2><span>Landing Page da Kivula </span><span class="accent">Design Estratégico para Conversões</span></h2>
           <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
           <div class="d-flex">
-            <a href="#about" class="btn-start">Get Started</a>
-            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            <a href="#about" class="btn-get-started">Agendar Reunião</a>
+            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Assistir Video</span></a>
           </div>
         </div>
         <div class="col-lg-5 order-1 order-lg-2">
-          <img src="assets/img/hero-img.svg" class="img-fluid" alt="">
+          <img src="{{ asset('assets/img/hero-im.svg') }}" class="img-fluid" alt="">
         </div>
       </div>
-    </div>
-
-  {{--   <div class="feature-boxes position-relative" data-aos="fade-up" data-aos-delay="200">
-      <div class="container position-relative">
-        <div class="row gy-4 mt-5">
-
-          <div class="col-xl-3 col-md-6">
-            <div class="feature-box">
-              <div class="feature-icon"><i class="bi bi-easel"></i></div>
-              <h4 class="feature-title"><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-            </div>
-          </div><!--End Feature Box -->
-
-          <div class="col-xl-3 col-md-6">
-            <div class="feature-box">
-              <div class="feature-icon"><i class="bi bi-gem"></i></div>
-              <h4 class="feature-title"><a href="" class="stretched-link">Sed ut perspiciatis</a></h4>
-            </div>
-          </div><!--End Feature Box -->
-
-          <div class="col-xl-3 col-md-6">
-            <div class="feature-box">
-              <div class="feature-icon"><i class="bi bi-geo-alt"></i></div>
-              <h4 class="feature-title"><a href="" class="stretched-link">Magni Dolores</a></h4>
-            </div>
-          </div><!--End Feature Box -->
-
-          <div class="col-xl-3 col-md-6">
-            <div class="feature-box">
-              <div class="feature-icon"><i class="bi bi-command"></i></div>
-              <h4 class="feature-title"><a href="" class="stretched-link">Nemo Enim</a></h4>
-            </div>
-          </div><!--End Feature Box -->
-
-        </div>
-      </div>
-    </div>
- --}}
-</section><!-- /Hero Banner -->
-
-
-
-    <section>
-        <div class="produto-container">
-            <div class="produto-descricao">
-                <h2>SIGE</h2>
-                <p>SIGE é uma ferramenta tecnológica essencial para instituições de ensino. Ele centraliza e organiza diversas informações, automatizando processos e otimizando a gestão acadêmica.</p>
-                <div class="avaliacao">
-                    
-                    <span>+3 Empresas avaliaram o SIGE</span>
-                </div>
-                <button class="botao-saiba-mais">Saiba mais</button>
-               
-            </div>
+  
+  
     
-            <div class="produto-imagem">
-                <img src="{{ asset('assets/img/tumbs/capa2.png') }}" alt="SIGE">
-            </div>
-        </div>
-    </section>
-    
-<!-- Services Section -->
-<section id="services" class="services section light-background">
+  
+  
 
-    <!-- Section Title -->
-    <div class="container section-title" >
-      <span>Nossos Serviços</span>
-      <h2>Funcionalidades</h2>
-    </div><!-- End Section Title -->
+    </div>
+ 
+
+
+  </section><!-- /Hero Section -->
+
+
+   <!-- About Section -->
+   <section id="about" class="about section">
+
 
     <div class="container">
+
       <div class="row gy-4">
-  
-        <div class="col-lg-4 col-md-6"  >
-            <div class="service-item position-relative">
-                <div class="icon">
-                    <i class="fas fa-bullhorn"></i> <!-- Ícone de Marketing -->
-                </div>
-                <a href="#"class="stretched-link">
-                    <h3>Marketing Digital & Gestão de Redes Sociais</h3>
-                </a>
-                <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-            </div>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <h3>Landing Page da Kivula</h3>
+{{--           <img src="assets/img/about.jpg" class="img-fluid rounded-4 mb-4" alt=""> --}}
+          <p style="font-size: 18px">A Kivula oferece uma Landing Page desenvolvida para empresas e empreendedores que buscam uma presença digital eficiente e profissional. Criada com as melhores práticas de design e otimização, essa solução permite aumentar conversões, capturar leads e impulsionar vendas de forma prática e acessível.</p>
+          <p style="font-size: 18px">Com um design responsivo e intuitivo, a Landing Page da Kivula garante uma experiência agradável para os usuários em qualquer dispositivo.</p>
         </div>
-    
-        <div class="col-lg-4 col-md-6"  data-aos-delay="200">
-            <div class="service-item position-relative">
-                <div class="icon">
-                    <i class="fas fa-cogs"></i> <!-- Ícone de Soluções Tecnológicas -->
-                </div>
-                <a href="service-details.html" class="stretched-link">
-                    <h3>Soluções Tecnológicas & Automação</h3>
-                </a>
-                <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
+          <div class="content ps-0 ps-lg-5">
+            <div class="position-relative mt-4">
+              <img src="{{ asset('assets/img/capa12.jpg') }}" class="img-fluid rounded-4" alt="">
+              <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
             </div>
+          </div>
         </div>
-    
-        <div class="col-lg-4 col-md-6"  data-aos-delay="300">
-            <div class="service-item position-relative">
-                <div class="icon">
-                    <i class="fas fa-user-tie"></i> <!-- Ícone de Consultoria TI -->
-                </div>
-                <a href="service-details.html" class="stretched-link">
-                    <h3>Consultoria em Tecnologia da Informação (TI)</h3>
-                </a>
-                <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-            </div>
-        </div>
+      </div>
 
-        <div class="col-lg-4 col-md-6"  data-aos-delay="300">
-            <div class="service-item position-relative">
-                <div class="icon">
-                    <i class="fas fa-user-tie"></i> <!-- Ícone de Consultoria TI -->
-                </div>
-                <a href="service-details.html" class="stretched-link">
-                    <h3>Consultoria em Tecnologia da Informação (TI)</h3>
-                </a>
-                <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6"  data-aos-delay="300">
-            <div class="service-item position-relative">
-                <div class="icon">
-                    <i class="fas fa-user-tie"></i> <!-- Ícone de Consultoria TI -->
-                </div>
-                <a href="service-details.html" class="stretched-link">
-                    <h3>Consultoria em Tecnologia da Informação (TI)</h3>
-                </a>
-                <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6"  data-aos-delay="300">
-            <div class="service-item position-relative">
-                <div class="icon">
-                    <i class="fas fa-user-tie"></i> <!-- Ícone de Consultoria TI -->
-                </div>
-                <a href="service-details.html" class="stretched-link">
-                    <h3>Consultoria em Tecnologia da Informação (TI)</h3>
-                </a>
-                <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-            </div>
-        </div>
-        
-    
     </div>
-  
-        
-  
-      </div>
-  </div>
 
-
-    {{-- <!-- Featured Services Section -->
-    <section id="featured-services" class="featured-services section">
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 d-flex"  >
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-activity icon"></i></div>
-              <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 d-flex"  data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
-              <h4><a href="" class="stretched-link">Sed ut perspici</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 d-flex"  data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
-              <h4><a href="" class="stretched-link">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Featured Services Section --> --}}
-
-
-    </section><!-- /Services Section -->
-
-     
-
+  </section><!-- /About Section -->
 
       <!-- Faq Section -->
       <section class="faq-9 faq section light-background" id="faq">
@@ -224,7 +71,7 @@
           <div class="row">
   
             <div class="col-lg-5" data-aos="fade-up">
-              <h2 class="faq-title">Have a question? Check out the FAQ</h2>
+              <h2 class="faq-title">Tem alguma pergunta? Confira as perguntas frequentes</h2>
               <p class="faq-description">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet adipiscing sem neque sed ipsum.</p>
               <div class="faq-arrow d-none d-lg-block" data-aos="fade-up" data-aos-delay="200">
                 <svg class="faq-arrow" width="200" height="211" viewBox="0 0 200 211" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -237,49 +84,49 @@
               <div class="faq-container">
   
                 <div class="faq-item faq-active">
-                  <h3>Como um SGE pode melhorar a gestão acadêmica da escola?</h3>
+                  <h3>O que é a Landing Page da Kivula?</h3>
                   <div class="faq-content">
-                    <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                    <p>A Landing Page da Kivula é uma página web otimizada para conversão, projetada para ajudar empresas e empreendedores a capturar leads, promover produtos e aumentar as vendas.</p>
                   </div>
                   <i class="faq-toggle bi bi-chevron-right"></i>
                 </div><!-- End Faq item-->
   
                 <div class="faq-item">
-                  <h3>É possível acompanhar o desempenho dos alunos em tempo real no SGE?</h3>
+                  <h3>A Landing Page da Kivula utiliza Inteligência Artificial?</h3>
                   <div class="faq-content">
-                    <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                    <p>A Inteligência Artificial é utilizada apenas no desenvolvimento do chat inteligente da Kivula, que pode ser integrado à Landing Page para melhorar a interação com os visitantes.</p>
                   </div>
                   <i class="faq-toggle bi bi-chevron-right"></i>
                 </div><!-- End Faq item-->
   
                 <div class="faq-item">
-                  <h3>O sistema permite a comunicação entre pais, alunos e professores?</h3>
+                  <h3>Preciso saber programar para usar a Landing Page?</h3>
                   <div class="faq-content">
-                    <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+                    <p>Não! A Landing Page da Kivula é fácil de personalizar, permitindo que você altere textos, imagens e botões sem precisar de conhecimento técnico.</p>
                   </div>
                   <i class="faq-toggle bi bi-chevron-right"></i>
                 </div><!-- End Faq item-->
   
                 <div class="faq-item">
-                  <h3>O SGE pode ser integrado a outras plataformas educacionais?</h3>
+                  <h3>A Kivula oferece suporte?</h3>
                   <div class="faq-content">
-                    <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                    <p>Sim! Nossa equipe está sempre pronta para ajudá-lo com qualquer dúvida ou necessidade relacionada à sua Landing Page. Oferecemos suporte técnico para configuração, personalização e integração da sua página, garantindo que você tenha a melhor experiência possível. Se precisar de ajuda, basta entrar em contato conosco e teremos prazer em auxiliá-lo.</p>
                   </div>
                   <i class="faq-toggle bi bi-chevron-right"></i>
                 </div><!-- End Faq item-->
   
                 <div class="faq-item">
-                  <h3>Quais são as principais funcionalidades de um SGE para a administração escolar?</h3>
+                  <h3>A Landing Page da Kivula é segura?</h3>
                   <div class="faq-content">
-                    <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
+                    <p>Sim! Utilizamos tecnologias modernas de segurança para garantir a proteção dos seus dados e dos visitantes da sua página. Todos os sites são hospedados em servidores confiáveis, contando com certificados SSL (HTTPS), que protegem as informações transmitidas entre o usuário e a página. Isso evita ataques cibernéticos e garante que seus clientes naveguem com total segurança</p>
                   </div>
                   <i class="faq-toggle bi bi-chevron-right"></i>
                 </div><!-- End Faq item-->
   
                 <div class="faq-item">
-                  <h3>Como um SGE garante a segurança dos dados acadêmicos e administrativos?</h3>
+                  <h3>Posso editar minha Landing Page depois de publicada?</h3>
                   <div class="faq-content">
-                    <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi. Distinctio ipsam dolore et.</p>
+                    <p>Sim! Nossa plataforma permite que você faça alterações sempre que precisar. Após a publicação da sua página, você pode modificar textos, imagens, botões e até mesmo ajustar o design para acompanhar as necessidades do seu negócio. O processo de edição é simples e intuitivo, sem necessidade de conhecimentos técnicos, para que você tenha total controle sobre sua Landing Page a qualquer momento.</p>
                   </div>
                   <i class="faq-toggle bi bi-chevron-right"></i>
                 </div><!-- End Faq item-->
@@ -297,7 +144,7 @@
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Pricing</h2>
+          <h2>Plnos & Preços</h2>
           <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
         </div><!-- End Section Title -->
   
@@ -308,32 +155,32 @@
             <!-- Basic Plan -->
             <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
               <div class="pricing-card">
-                <h3>Basic Plan</h3>
+                <h3>Plano Básico</h3>
                 <div class="price">
-                  <span class="currency">$</span>
-                  <span class="amount">9.9</span>
-                  <span class="period">/ month</span>
+                  <span class="currency">Kz </span>
+                  <span class="amount">35.000</span>
+                  <span class="period">/ mês</span>
                 </div>
-                <p class="description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam.</p>
+                <p class="description">Ideal para pequenos negócios e empreendedores que precisam de uma página simples e eficiente.</p>
   
-                <h4>Featured Included:</h4>
+                <h4>Destaque Incluído:</h4>
                 <ul class="features-list">
                   <li>
                     <i class="bi bi-check-circle-fill"></i>
-                    Duis aute irure dolor
+                    Suporte via e-mail
                   </li>
                   <li>
                     <i class="bi bi-check-circle-fill"></i>
-                    Excepteur sint occaecat
+                    Hospedagem incluída
                   </li>
                   <li>
                     <i class="bi bi-check-circle-fill"></i>
-                    Nemo enim ipsam voluptatem
+                    1 Página única otimizada
                   </li>
                 </ul>
   
                 <a href="#" class="btn btn-primary">
-                  Buy Now
+                  Comprar agora
                   <i class="bi bi-arrow-right"></i>
                 </a>
               </div>
@@ -343,36 +190,36 @@
             <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
               <div class="pricing-card popular">
                 <div class="popular-badge">Most Popular</div>
-                <h3>Standard Plan</h3>
+                <h3> Plano Profissional</h3>
                 <div class="price">
-                  <span class="currency">$</span>
-                  <span class="amount">19.9</span>
-                  <span class="period">/ month</span>
+                  <span class="currency">Kz</span>
+                  <span class="amount">55.000</span>
+                  <span class="period">/ mês</span>
                 </div>
-                <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
+                <p class="description"> Para empresas que desejam uma Landing Page mais completa e personalizável.</p>
   
-                <h4>Featured Included:</h4>
+                <h4>Destaque Incluído:</h4>
                 <ul class="features-list">
                   <li>
                     <i class="bi bi-check-circle-fill"></i>
-                    Lorem ipsum dolor sit amet
+                    Tudo do Plano Básico +
                   </li>
                   <li>
                     <i class="bi bi-check-circle-fill"></i>
-                    Consectetur adipiscing elit
+                    Formulário de captura de leads com integração a e-mail marketing
                   </li>
                   <li>
                     <i class="bi bi-check-circle-fill"></i>
-                    Sed do eiusmod tempor
+                    Análises de desempenho e métricas básicas
                   </li>
                   <li>
                     <i class="bi bi-check-circle-fill"></i>
-                    Ut labore et dolore magna
+                    Botões de chamada para ação (CTA) otimizados
                   </li>
                 </ul>
   
                 <a href="#" class="btn btn-light">
-                  Buy Now
+                  Comprar agora
                   <i class="bi bi-arrow-right"></i>
                 </a>
               </div>
@@ -381,40 +228,40 @@
             <!-- Premium Plan -->
             <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
               <div class="pricing-card">
-                <h3>Premium Plan</h3>
+                <h3>Plano Premium</h3>
                 <div class="price">
-                  <span class="currency">$</span>
-                  <span class="amount">39.9</span>
-                  <span class="period">/ month</span>
+                  <span class="currency">Kz</span>
+                  <span class="amount">80.000</span>
+                  <span class="period">/ mês</span>
                 </div>
-                <p class="description">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae.</p>
+                <p class="description">Para negócios que querem máxima performance e conversão com suporte completo.</p>
   
                 <h4>Featured Included:</h4>
                 <ul class="features-list">
                   <li>
                     <i class="bi bi-check-circle-fill"></i>
-                    Temporibus autem quibusdam
+                    Tudo do Plano Profissional +
                   </li>
                   <li>
                     <i class="bi bi-check-circle-fill"></i>
-                    Saepe eveniet ut et voluptates
+                    Suporte prioritário via WhatsApp e chamada de vídeo
                   </li>
                   <li>
                     <i class="bi bi-check-circle-fill"></i>
-                    Nam libero tempore soluta
+                    Chat Inteligente com IA integrado
                   </li>
                   <li>
                     <i class="bi bi-check-circle-fill"></i>
-                    Cumque nihil impedit quo
+                    Acompanhamento e otimização mensal da Landing Page
                   </li>
                   <li>
                     <i class="bi bi-check-circle-fill"></i>
-                    Maxime placeat facere possimus
+                    SEO avançado para melhor posicionamento no Google
                   </li>
                 </ul>
   
                 <a href="#" class="btn btn-primary">
-                  Buy Now
+                  Comprar agora
                   <i class="bi bi-arrow-right"></i>
                 </a>
               </div>

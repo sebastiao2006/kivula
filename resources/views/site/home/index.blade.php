@@ -7,7 +7,9 @@
   <!-- Hero Section -->
   <section id="hero" class="hero section accent-background">
 
-    <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+    <div class="container position-relative" data-aos="fade-up" data-aos-delay="100" id="particles-js">
+
+
       <div class="row gy-5 justify-content-between">
         <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
           <h2><span>Welcome to </span><span class="accent">Kivula</span></h2>
@@ -21,8 +23,132 @@
           <img src="{{ asset('assets/img/hero-im.svg') }}" class="img-fluid" alt="">
         </div>
       </div>
-    </div>
+  
+      <main id="principal">      
+      </main>
+      <div id="particles-js"></div>
+      <script src="{{ asset('assets/js/particles.min.js') }}"></script>
+  
+  
+      <script>
+        particlesJS(
+            {
+                "particles": {
+                    "number": {
+                        "value": 185,
+                        "density": {
+                            "enable": true,
+                            "value_area": 800
+                        }
+                    },
+                    "color": {
+                        "value": "#ffffff"
+                    },
+                    "shape": {
+                        "type": "circle",
+                        "stroke": {
+                            "width": 0,
+                            "color": "#000000"
+                        },
+                        "polygon": {
+                            "nb_sides": 5
+                        },
+                        "image": {
+                            "src": "img/github.svg",
+                            "width": 100,
+                            "height": 100
+                        }
+                    },
+                    "opacity": {
+                        "value": 0.5,
+                        "random": false,
+                        "anim": {
+                            "enable": false,
+                            "speed": 1,
+                            "opacity_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "size": {
+                        "value": 3,
+                        "random": true,
+                        "anim": {
+                            "enable": false,
+                            "speed": 40,
+                            "size_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "line_linked": {
+                        "enable": true,
+                        "distance": 150,
+                        "color": "#ffffff",
+                        "opacity": 0.4,
+                        "width": 1
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 11.22388442605866,
+                        "direction": "none",
+                        "random": false,
+                        "straight": false,
+                        "out_mode": "out",
+                        "bounce": false,
+                        "attract": {
+                            "enable": false,
+                            "rotateX": 600,
+                            "rotateY": 1200
+                        }
+                    }
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                        "onhover": {
+                            "enable": false,
+                            "mode": "repulse"
+                        },
+                        "onclick": {
+                            "enable": true,
+                            "mode": "push"
+                        },
+                        "resize": true
+                    },
+                    "modes": {
+                        "grab": {
+                            "distance": 400,
+                            "line_linked": {
+                                "opacity": 1
+                            }
+                        },
+                        "bubble": {
+                            "distance": 400,
+                            "size": 40,
+                            "duration": 2,
+                            "opacity": 8,
+                            "speed": 3
+                        },
+                        "repulse": {
+                            "distance": 200,
+                            "duration": 0.4
+                        },
+                        "push": {
+                            "particles_nb": 4
+                        },
+                        "remove": {
+                            "particles_nb": 2
+                        }
+                    }
+                },
+                "retina_detect": true
+            }
+        )
+    </script>
+  
+  
 
+    </div>
+ 
     <div class="icon-boxes position-relative" data-aos="fade-up" data-aos-delay="200">
       <div class="container position-relative">
         <div class="row gy-4 mt-5">
@@ -520,7 +646,7 @@
 
         <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
           <div class="content px-xl-5">
-            <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
+            <h3><span>Perguntas frequentes </span><strong>Questões</strong></h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
             </p>
@@ -531,41 +657,41 @@
 
           <div class="faq-container">
             <div class="faq-item faq-active">
-              <h3><span class="num">1.</span> <span>Non consectetur a erat nam at lectus urna duis?</span></h3>
+              <h3><span class="num">1.</span> <span> O que é a Kivula?</span></h3>
               <div class="faq-content">
-                <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                <p>A Kivula é uma consultoria de TI especializada no desenvolvimento de soluções web, operando 100% online e incorporando inteligência artificial para otimizar seus projetos.</p>
               </div>
               <i class="faq-toggle bi bi-chevron-right"></i>
             </div><!-- End Faq item-->
 
             <div class="faq-item">
-              <h3><span class="num">2.</span> <span>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</span></h3>
+              <h3><span class="num">2.</span> <span>Quais serviços a Kivula oferece?</span></h3>
               <div class="faq-content">
-                <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                <p>A empresa desenvolve sites, plataformas web e sistemas automatizados, além de fornecer consultoria e suporte em TI.</p>
               </div>
               <i class="faq-toggle bi bi-chevron-right"></i>
             </div><!-- End Faq item-->
 
             <div class="faq-item">
-              <h3><span class="num">3.</span> <span>Dolor sit amet consectetur adipiscing elit pellentesque?</span></h3>
+              <h3><span class="num">3.</span> <span>A Kivula atende clientes internacionais?</span></h3>
               <div class="faq-content">
-                <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+                <p>Sim, por ser uma consultoria totalmente digital, a Kivula atende empresas e empreendedores de diferentes países.</p>
               </div>
               <i class="faq-toggle bi bi-chevron-right"></i>
             </div><!-- End Faq item-->
 
             <div class="faq-item">
-              <h3><span class="num">4.</span> <span>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</span></h3>
+              <h3><span class="num">4.</span> <span>Como a Kivula usa inteligência artificial em seus projetos?</span></h3>
               <div class="faq-content">
-                <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                <p>A IA é aplicada para automação de processos, melhoria da experiência do usuário, criação de chatbots e análise de dados estratégicos.</p>
               </div>
               <i class="faq-toggle bi bi-chevron-right"></i>
             </div><!-- End Faq item-->
 
             <div class="faq-item">
-              <h3><span class="num">5.</span> <span>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</span></h3>
+              <h3><span class="num">5.</span> <span>A Kivula oferece suporte após a entrega do projeto?</span></h3>
               <div class="faq-content">
-                <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
+                <p>Sim, a empresa garante suporte técnico e manutenção para o funcionamento contínuo das soluções desenvolvidas.</p>
               </div>
               <i class="faq-toggle bi bi-chevron-right"></i>
             </div><!-- End Faq item-->
@@ -584,8 +710,7 @@
 
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
-      <h2>Recent Blog Posts</h2>
-      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      <h2>Postagens recentes do blog</h2>
     </div><!-- End Section Title -->
 
     <div class="container">

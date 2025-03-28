@@ -6,6 +6,7 @@ use App\Http\Controllers\Site\AboutController;
 use App\Http\Controllers\Site\ContactController;
 use App\Http\Controllers\Site\ServiceController;
 use App\Http\Controllers\Site\ProductController;
+use App\Http\Controllers\Admin\DashboardController;
 
 
 /* SITE */
@@ -21,5 +22,11 @@ Route::get('/contact', [ContactController::class, 'index'])->name('site.contact.
 /* contacto */
 Route::get('/service', [ServiceController::class, 'index'])->name('site.service.index');
 /* product*/
-Route::get('/product/{id}', [ProductController::class, 'show'])->name('site.product.show');
+Route::get('/product/{id}', [ProductController::class, 'show'])->name('product.show');
+
+/* Admin*/
+Route::prefix('admin')->group(function () {
+    Route::get('/dashboard', [DashboardController::class, 'index'])->name('admin.dashboard.index');
+});
+
 

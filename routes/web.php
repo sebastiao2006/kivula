@@ -12,6 +12,8 @@ use App\Http\Controllers\Admin\AboutController as AdminAboutController;
 use App\Http\Controllers\Admin\ContactController as AdminContactController;
 use App\Http\Controllers\Admin\ProductController as AdminProductController;
 use App\Http\Controllers\Admin\ServiceController as AdminServiceController;
+use App\Http\Controllers\Admin\PartnerController as AdminPartnerController;
+use App\Http\Controllers\Admin\PortfolioController as AdminPortfolioController;
 
 
 /* SITE */
@@ -36,7 +38,8 @@ Route::prefix('admin')->group(function () {
     Route::get('/contact', [AdminContactController::class, 'index'])->name('admin.contact.index');
     Route::get('/about', [AdminAboutController::class, 'index'])->name('admin.about.index');
     Route::get('/service', [AdminServiceController::class, 'index'])->name('admin.service.index');
-    Route::get('/product', [AdminProductController::class, 'index'])->name('admin.product.index');
+    Route::get('/partner', [AdminPartnerController::class, 'index'])->name('admin.partner.index');
+    Route::get('/portfolio', [AdminPortfolioController::class, 'index'])->name('admin.portfolio.index');
 });
 
 

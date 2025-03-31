@@ -1,7 +1,8 @@
 @extends('admin.layouts.app')
-@section('title', 'Kivula')
+
+@section('title', 'Dashboard')
+
 @section('content')
-<main>
-    
-</main>
+  <h1>Bem-vindo ao Elegant Dashboard</h1>
+  <p>Esta é a página inicial.</p>
 @endsection

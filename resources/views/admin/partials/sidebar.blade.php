@@ -93,7 +93,7 @@
                         <span class="icon message" aria-hidden="true"></span>
                         Blog
                     </a>
-                    <span class="msg-counter">7</span>
+                    {{-- <span class="msg-counter">7</span> --}}
                 </li>
             </ul>
             <span class="system-menu__title">system</span>

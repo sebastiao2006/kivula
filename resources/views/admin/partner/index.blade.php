@@ -3,5 +3,7 @@
 @section('title', 'Partner')
 
 @section('content')
-
+<main>
+    
+</main>
 @endsection

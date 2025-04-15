@@ -522,42 +522,33 @@
     </div><!-- End Section Title -->
 
     <div class="container">
-
-      <div class="row gy-4">
-
-        <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
-          <div class="member">
-            <img src="assets/img/team/team-1.png" class="img-fluid" alt="">
-            <h4>Organização</h4>
-            <span>Parceiro de Comunicação</span>
-          </div>
-        </div><!-- End Team Member -->
-
-        <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
-          <div class="member">
-            <img src="assets/img/team/team-2.png" class="img-fluid" alt="">
-            <h4>Marketing</h4>
-            <span>Parceiro Institucional</span>
-          </div>
-        </div><!-- End Team Member -->
-
-        <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
-          <div class="member">
-            <img src="assets/img/team/team-3.png" class="img-fluid" alt="">
-            <h4>William Anderson</h4>
-            <span>Content</span>
-          </div>
-        </div><!-- End Team Member -->
-
-        <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-          <div class="member">
-            <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-            <h4>Amanda Jepson</h4>
-            <span>Accountant</span>
-          </div>
-        </div><!-- End Team Member -->
-
+  
+      <div class="partners-grid">
+          @foreach($partners as $partner)
+              <div class="card">
+                  <div class="card-image">
+                      @if($partner->logo)
+                          <img src="{{ asset('storage/' . $partner->logo) }}" alt="{{ $partner->name }}">
+                      @else
+                          <div class="no-logo">Sem Logo</div>
+                      @endif
+                  </div>
+                  <div class="card-content">
+                      <h4>{{ $partner->name }}</h4>
+                      <p>{{ $partner->description }}</p>
+                  </div>
+                  <div class="card-footer">
+                      @if($partner->site)
+                          <a href="{{ $partner->site }}" target="_blank" class="card-link">Visitar site</a>
+                      @else
+                          <span class="no-site">Sem site</span>
+                      @endif
+                  </div>
+              </div>
+          @endforeach
       </div>
+  </div>
+    
 
     </div>
 

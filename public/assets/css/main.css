@@ -2618,3 +2618,97 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+
+/* Container principal */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Título */
+h3 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Grid dos cards */
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Card */
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Imagem do parceiro */
+.card-image {
+  background: #F3F4F6;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-image img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.no-logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  font-size: 14px;
+}
+
+/* Conteúdo */
+.card-content h4 {
+  margin-top: 10px;
+  color: #333;
+}
+
+.card-content p {
+  color: #666;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Rodapé do card */
+.card-footer {
+  margin-top: 15px;
+}
+
+.card-link {
+  text-decoration: none;
+  color: #6A5ACD;
+  font-weight: bold;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+.no-site {
+  color: #999;
+}

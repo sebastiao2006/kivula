@@ -81,10 +81,10 @@
                     </a>
                     <ul class="cat-sub-menu">
                         <li>
-                            <a href="pages.html">Ver todos</a>
+                            <a href="{{ route('admin.partner.store') }}">Ver todos</a>
                         </li>
                         <li>
-                            <a href="new-page.html">Adicionar </a>
+                            <a href="{{ route('admin.partner.create') }}">Adicionar </a>
                         </li>
                     </ul>
                 </li>
